@@ -1,0 +1,37 @@
+/* Control the emoji size */
+.emoji {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Add styling to set recommendation section apart */
+.recommend {
+    padding: 50px;
+    background: #B9DCF2;
+    border: 5px solid #3F5CBF;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+/* Style book recommendations list */
+#book-form {
+    margin-top: 25px;
+}
+
+
+/* Style book recommendations list */
+#book-list {
+    margin-top: 25px;
+}
+
+/* Style menu */
+.navbar {
+    padding: 14px;
+}
+
+/* Add some space above Add to Reading List button on mobile */
+@media (max-width: 694px) {
+    #submit {
+        margin-top: 14px;
+    }
+}
